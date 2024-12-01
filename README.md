@@ -66,8 +66,13 @@ Your Name: NDAYAMBAJE ALEXIS
 
 ## Player Registration
 ![Screenshot 2024-12-01 161008](https://github.com/user-attachments/assets/973e3d31-630a-4e92-a35a-38738d82f92f)
-
-Future Improvements
+## Forgot password
+![Screenshot 2024-12-01 161454](https://github.com/user-attachments/assets/e5bc056d-a4d2-4ae1-9300-b6388697df31)
+## Register new player
+![Screenshot 2024-12-01 161939](https://github.com/user-attachments/assets/8de920d8-34ff-45cb-ba25-a6627cb1a3c0)
+## home page
+![Screenshot 2024-12-01 162437](https://github.com/user-attachments/assets/09629c30-5f6d-49fd-9b49-e12b1b0d439b)
+## Future Improvements
 Add advanced analytics for league statistics.
 Implement two-factor authentication for enhanced security.
 Include additional language support for a broader reach.
