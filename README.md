@@ -62,9 +62,11 @@ Your Name: NDAYAMBAJE ALEXIS
 
 ## Screenshots
 ## Admin Dashboard
-Include an image of the admin dashboard here.
-Player Registration
-Include an image of the player registration form here.
+![Screenshot 2024-12-01 160717](https://github.com/user-attachments/assets/534a7304-bc3e-40ee-897b-d91ccf2fab20)
+
+## Player Registration
+![Screenshot 2024-12-01 161008](https://github.com/user-attachments/assets/973e3d31-630a-4e92-a35a-38738d82f92f)
+
 Future Improvements
 Add advanced analytics for league statistics.
 Implement two-factor authentication for enhanced security.
