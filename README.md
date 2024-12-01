@@ -83,5 +83,5 @@ Implement two-factor authentication for enhanced security.
 Include additional language support for a broader reach.
 
 ## Contributor
-Your Name: NDAYAMBAJE ALEXIS
+ NDAYAMBAJE ALEXIS
 
