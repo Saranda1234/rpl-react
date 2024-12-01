@@ -1,50 +1,71 @@
-# React + TypeScript + Vite
+## Rwanda Premier League Management System
+## Project Overview
+The Rwanda Premier League Management System is a web-based application designed to simplify and streamline the management of players and administrators in the league. This platform includes robust functionalities such as role-based access control, multilingual support, player registration, profile picture management, and password recovery. It offers tools to ensure efficient operations for administrators and convenient access for players.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+## For Administrators
+Login and manage player profiles.
+Perform CRUD operations (Create, Read, Update, Delete) on player details.
+Upload and download player profile pictures.
+Sort and search player listings for better organization.
+## For Players
+Register with:
+First name and last name.
+Email and phone number.
+Year of experience.
+Upload a profile picture during registration.
+Update personal information after registration.
+Download their profile picture when needed.
+## General Functionalities
+Forgot Password:
+Users can reset their passwords through an email-based recovery system.
+Confirmation emails guide users on resetting their passwords securely.
+Multilanguage Support:
+Available in English, Kinyarwanda, and French, ensuring accessibility for a diverse user base.
+Search and Sort:
+Pages allow users to search and sort data dynamically for efficient navigation.
 
-Currently, two official plugins are available:
+## Business Goals
+Enable smooth administration of the Rwanda Premier League.
+Provide user-friendly and accessible interfaces for both administrators and players.
+Ensure secure data handling through password recovery and encrypted profiles.
+Offer language support to reach a wider audience and improve user experience.
+## Technology Stack
+## Frontend
+React.js (with Vite for fast builds and optimal performance)
+CSS for styling (or Tailwind CSS/Bootstrap for enhanced UI)
+## Backend
+Spring Boot (REST APIs for secure backend logic)
+JavaMail API for email services
+Database
+mysql
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Administrator Access
+Sign up as an administrator via the signup page.
+Log in to access the admin dashboard.
+Manage players by:
+Creating, updating, and deleting player profiles.
+Uploading and downloading player profile pictures.
+Sorting and searching through player records.
 
-## Expanding the ESLint configuration
+## Player Access
+Register on the player registration page.
+Update your details or upload a profile picture.
+Download your profile picture as needed.
+Forgot Password
+Click on the "Forgot Password" link on the login page.
+Enter your email to receive a password recovery link.
+Reset your password using the instructions in the email.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Contributor
+Your Name: NDAYAMBAJE ALEXIS
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Screenshots
+## Admin Dashboard
+Include an image of the admin dashboard here.
+Player Registration
+Include an image of the player registration form here.
+Future Improvements
+Add advanced analytics for league statistics.
+Implement two-factor authentication for enhanced security.
+Include additional language support for a broader reach.
