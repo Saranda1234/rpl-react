@@ -72,6 +72,9 @@ Your Name: NDAYAMBAJE ALEXIS
 ![Screenshot 2024-12-01 161939](https://github.com/user-attachments/assets/8de920d8-34ff-45cb-ba25-a6627cb1a3c0)
 ## home page
 ![Screenshot 2024-12-01 162437](https://github.com/user-attachments/assets/09629c30-5f6d-49fd-9b49-e12b1b0d439b)
+## login page
+![Screenshot 2024-12-01 163200](https://github.com/user-attachments/assets/8d6547b7-9388-43d4-9191-b3d368fa9383)
+
 ## Future Improvements
 Add advanced analytics for league statistics.
 Implement two-factor authentication for enhanced security.
