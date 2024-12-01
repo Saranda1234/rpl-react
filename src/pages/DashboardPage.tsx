@@ -163,7 +163,7 @@ const DashboardPage = () => {
                       src={
                         API_URL +
                         "/download-profile?fileName=" +
-                        user.profilePicture
+                        user.profilePicture.replace(/\\/g, '/')
                       }
                       className="card-img-top"
                       alt="Profile Picture"
@@ -173,7 +173,7 @@ const DashboardPage = () => {
                         href={
                           API_URL +
                           "/download-profile?fileName=" +
-                          user.profilePicture
+                          user.profilePicture.replace(/\\/g, '/')
                         }
                         className="btn btn-primary"
                         download={user.firstName + " " + user.lastName}

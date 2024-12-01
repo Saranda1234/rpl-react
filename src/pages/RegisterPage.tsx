@@ -4,6 +4,8 @@ import { API_URL } from "../utils/constants";
 import useAuthRedirect from "../utils/useAuthRedirect";
 
 const RegisterPage = () => {
+  useAuthRedirect();
+
   // State for form fields and alerts
   const [user, setUser] = useState({
     firstName: "",
@@ -38,7 +40,6 @@ const RegisterPage = () => {
   };
 
   const handleSubmit = (e: any) => {
-    useAuthRedirect();
     e.preventDefault();
 
     // Validate form fields
@@ -65,7 +66,9 @@ const RegisterPage = () => {
     })
       .then((response) => response.json())
       .then((data) => {
+        window.scrollTo({top:0,behavior:"smooth"});
         if (data.success) {
+       
           setSuccess(true);
         } else {
           setError(data.message);
@@ -140,7 +143,7 @@ const RegisterPage = () => {
                   </div>
                 )}
 
-                <form onSubmit={handleSubmit}>
+                <form method="post" onSubmit={handleSubmit}>
                   <div className="row">
                     <div className="col-md-6 form-group">
                       <label className="form-label">
