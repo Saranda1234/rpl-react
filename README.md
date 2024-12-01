@@ -57,21 +57,23 @@ Click on the "Forgot Password" link on the login page.
 Enter your email to receive a password recovery link.
 Reset your password using the instructions in the email.
 
-## Contributor
-Your Name: NDAYAMBAJE ALEXIS
-
 ## Screenshots
+
 ## Admin Dashboard
 ![Screenshot 2024-12-01 160717](https://github.com/user-attachments/assets/534a7304-bc3e-40ee-897b-d91ccf2fab20)
 
 ## Player Registration
 ![Screenshot 2024-12-01 161008](https://github.com/user-attachments/assets/973e3d31-630a-4e92-a35a-38738d82f92f)
+
 ## Forgot password
 ![Screenshot 2024-12-01 161454](https://github.com/user-attachments/assets/e5bc056d-a4d2-4ae1-9300-b6388697df31)
+
 ## Register new player
 ![Screenshot 2024-12-01 161939](https://github.com/user-attachments/assets/8de920d8-34ff-45cb-ba25-a6627cb1a3c0)
+
 ## home page
 ![Screenshot 2024-12-01 162437](https://github.com/user-attachments/assets/09629c30-5f6d-49fd-9b49-e12b1b0d439b)
+
 ## login page
 ![Screenshot 2024-12-01 163200](https://github.com/user-attachments/assets/8d6547b7-9388-43d4-9191-b3d368fa9383)
 
@@ -79,3 +81,7 @@ Your Name: NDAYAMBAJE ALEXIS
 Add advanced analytics for league statistics.
 Implement two-factor authentication for enhanced security.
 Include additional language support for a broader reach.
+
+## Contributor
+Your Name: NDAYAMBAJE ALEXIS
+
